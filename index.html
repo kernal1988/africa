@@ -3,213 +3,257 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Африка — Главные достопримечательности</title>
+  <title>Alex Design — UI/UX Designer</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .hero-bg { background-image: url('/img/kilimanjaro.jpg'); background-position: center 40%; }
-    .hero { align-items: center; text-align: center; }
-    .hero::after { background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.7) 100%); }
-    .hero-content { max-width: 780px; margin: 0 auto; padding: 0 2rem 4rem; }
-    .hero h1 { letter-spacing: -4px; }
-    .hero-meta { justify-content: center; }
-    .scroll-hint { right: 50%; transform: translateX(50%); writing-mode: horizontal-tb; bottom: 2.5rem; }
-  </style>
 </head>
 <body>
 
+  <!-- NAV -->
   <nav id="navbar">
-    <a href="#" class="nav-logo">Africa</a>
+    <a href="#" class="nav-logo">Alex<span>.</span></a>
     <ul class="nav-links">
-      <li><a href="#intro">О континенте</a></li>
-      <li><a href="#places">Места</a></li>
-      <li><a href="https://europe.kernal.su">Europe</a></li>
+      <li><a href="#works">Работы</a></li>
+      <li><a href="#about">Обо мне</a></li>
+      <li><a href="#services">Услуги</a></li>
+      <li><a href="#contact">Контакт</a></li>
     </ul>
+    <a href="#contact" class="nav-cta">Обсудить проект</a>
   </nav>
 
+  <!-- HERO -->
   <section class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-content">
-      <div class="hero-label">Добро пожаловать</div>
-      <h1>АФ<em>РИ</em>КА</h1>
-      <p class="hero-sub">Колыбель человечества. Восемь мест, которые нужно увидеть хотя бы раз в жизни.</p>
-      <a href="#places" class="hero-cta">Смотреть места</a>
+    <div class="hero-bg-num">5+</div>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-badge">UI/UX Designer</div>
+        <h1>Создаю<br>интерфейсы,<br>которые <em>работают</em></h1>
+        <p class="hero-desc">Дизайн — это не украшение. Это инструмент. Помогаю бизнесу расти через понятные и красивые цифровые продукты.</p>
+        <div class="hero-actions">
+          <a href="#works" class="btn-primary">Смотреть работы →</a>
+          <a href="#contact" class="btn-ghost">Связаться ↓</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num">5<span>+</span></div>
+          <div class="hero-stat-lbl">Лет опыта</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">48<span>+</span></div>
+          <div class="hero-stat-lbl">Проектов</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">32<span>+</span></div>
+          <div class="hero-stat-lbl">Клиентов</div>
+        </div>
+      </div>
     </div>
-    <div class="scroll-hint">Scroll</div>
   </section>
 
-  <!-- INTRO -->
-  <div class="intro-band" id="intro">
-    <div class="container">
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>UI Design</span><span class="marquee-dot">·</span>
+      <span>UX Research</span><span class="marquee-dot">·</span>
+      <span>Branding</span><span class="marquee-dot">·</span>
+      <span>Web Design</span><span class="marquee-dot">·</span>
+      <span>Mobile Apps</span><span class="marquee-dot">·</span>
+      <span>Design Systems</span><span class="marquee-dot">·</span>
+      <span>Prototyping</span><span class="marquee-dot">·</span>
+      <span>Figma</span><span class="marquee-dot">·</span>
+      <span>UI Design</span><span class="marquee-dot">·</span>
+      <span>UX Research</span><span class="marquee-dot">·</span>
+      <span>Branding</span><span class="marquee-dot">·</span>
+      <span>Web Design</span><span class="marquee-dot">·</span>
+      <span>Mobile Apps</span><span class="marquee-dot">·</span>
+      <span>Design Systems</span><span class="marquee-dot">·</span>
+      <span>Prototyping</span><span class="marquee-dot">·</span>
+      <span>Figma</span><span class="marquee-dot">·</span>
+    </div>
+  </div>
+
+  <!-- WORKS -->
+  <section class="works" id="works">
+    <div class="section-header reveal">
+      <div>
+        <div class="section-label">Портфолио</div>
+        <h2 class="section-title">Избранные<br><em>работы</em></h2>
+      </div>
+      <a href="#contact" class="section-link">Все проекты →</a>
+    </div>
+    <div class="works-grid reveal-stagger reveal">
+      <a href="#" class="work-card">
+        <img class="work-img" src="" alt="">
+        <div class="work-overlay">
+          <div class="work-cat">Mobile App</div>
+          <div class="work-name">FinTrack — Финансовый трекер</div>
+          <div class="work-arrow">Открыть проект →</div>
+        </div>
+      </a>
+      <a href="#" class="work-card">
+        <img class="work-img" src="" alt="">
+        <div class="work-overlay">
+          <div class="work-cat">Web Design</div>
+          <div class="work-name">GreenShop — Ecommerce</div>
+          <div class="work-arrow">Открыть проект →</div>
+        </div>
+      </a>
+      <a href="#" class="work-card">
+        <img class="work-img" src="" alt="">
+        <div class="work-overlay">
+          <div class="work-cat">Branding</div>
+          <div class="work-name">Nova Studio — Identity</div>
+          <div class="work-arrow">Открыть проект →</div>
+        </div>
+      </a>
+      <a href="#" class="work-card">
+        <img class="work-img" src="" alt="">
+        <div class="work-overlay">
+          <div class="work-cat">Dashboard</div>
+          <div class="work-name">Analytics Pro</div>
+          <div class="work-arrow">Открыть проект →</div>
+        </div>
+      </a>
+      <a href="#" class="work-card">
+        <img class="work-img" src="" alt="">
+        <div class="work-overlay">
+          <div class="work-cat">Mobile App</div>
+          <div class="work-name">MedBook — Здоровье</div>
+          <div class="work-arrow">Открыть проект →</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-photo reveal">
+        <div class="about-photo-box"></div>
+        <div class="about-tag">
+          <strong>5+</strong>
+          лет в дизайне
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <div class="section-label">Обо мне</div>
+        <h2>Дизайнер с<br><em>аналитическим</em><br>мышлением</h2>
+        <p>Меня зовут Алекс. Я UI/UX дизайнер с опытом работы более 5 лет. Специализируюсь на создании цифровых продуктов — от мобильных приложений до сложных веб-платформ.</p>
+        <p>Верю, что хороший дизайн — это не про красоту, а про решение задачи. Каждый пиксель должен иметь причину.</p>
+        <div class="skills">
+          <span class="skill">Figma</span>
+          <span class="skill">UX Research</span>
+          <span class="skill">Prototyping</span>
+          <span class="skill">Design Systems</span>
+          <span class="skill">Motion</span>
+          <span class="skill">Branding</span>
+          <span class="skill">Webflow</span>
+          <span class="skill">Framer</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="services-inner">
       <div class="reveal">
-        <div class="section-tag">Континент</div>
-        <h2 class="section-title">Второй по размеру <em>континент</em> планеты</h2>
-        <p>Африка — колыбель человеческой цивилизации. Здесь зародилась наша история, здесь живёт треть всех видов животных планеты, здесь стоят древнейшие рукотворные монументы. Восемь мест — от Сахары до мыса Доброй Надежды.</p>
+        <div class="section-label">Услуги</div>
+        <h2 class="section-title">Что я <em>делаю</em></h2>
       </div>
-      <div class="intro-figures reveal-stagger reveal">
-        <div class="fig-item">
-          <div class="fig-val">54</div>
-          <div class="fig-lbl">Государства</div>
+      <div class="services-grid reveal-stagger reveal">
+        <div class="service-card">
+          <span class="service-icon">✦</span>
+          <div class="service-name">UI/UX Дизайн</div>
+          <div class="service-desc">Проектирование интерфейсов для веб и мобайл. От исследования пользователей до готовых макетов в Figma.</div>
+          <div class="service-price">
+            от
+            <strong>50 000 ₽</strong>
+          </div>
         </div>
-        <div class="fig-item">
-          <div class="fig-val">30 млн</div>
-          <div class="fig-lbl">км² площадь</div>
+        <div class="service-card">
+          <span class="service-icon">◈</span>
+          <div class="service-name">Брендинг</div>
+          <div class="service-desc">Фирменный стиль, логотип, гайдлайн. Создаю визуальный язык, который отличает вас от конкурентов.</div>
+          <div class="service-price">
+            от
+            <strong>80 000 ₽</strong>
+          </div>
         </div>
-        <div class="fig-item">
-          <div class="fig-val">1,4 млрд</div>
-          <div class="fig-lbl">Население</div>
-        </div>
-        <div class="fig-item">
-          <div class="fig-val">2 000+</div>
-          <div class="fig-lbl">Языков</div>
+        <div class="service-card">
+          <span class="service-icon">⬡</span>
+          <div class="service-name">Дизайн-система</div>
+          <div class="service-desc">Компонентная библиотека и документация для вашей команды разработки. Масштабируемо и последовательно.</div>
+          <div class="service-price">
+            от
+            <strong>120 000 ₽</strong>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <!-- PLACES -->
-  <div class="places-section" id="places">
-    <div class="container">
+  <!-- PROCESS -->
+  <section class="process">
+    <div class="process-inner">
       <div class="reveal">
-        <div class="section-tag">Достопримечательности</div>
-        <h2 class="section-title">8 мест, которые <em>запоминаются</em></h2>
+        <div class="section-label">Процесс</div>
+        <h2 class="section-title">Как я <em>работаю</em></h2>
       </div>
-      <div class="places-grid reveal-stagger reveal">
-
-        <a href="giza.html" class="place-card">
-          <span class="card-num">01</span>
-          <img src="/img/giza.jpg" alt="Пирамиды Гизы">
-          <div class="card-body">
-            <div class="card-tag">Египет</div>
-            <div class="card-name">Пирамиды Гизы</div>
-            <div class="card-hint">Единственное сохранившееся чудо древнего мира.</div>
-            <span class="card-go">Подробнее</span>
-          </div>
-        </a>
-
-        <a href="tablemountain.html" class="place-card">
-          <span class="card-num">02</span>
-          <img src="/img/tablemountain.jpg" alt="Столовая гора">
-          <div class="card-body">
-            <div class="card-tag">ЮАР</div>
-            <div class="card-name">Столовая гора</div>
-            <div class="card-hint">Визитная карточка Кейптауна, одно из 7 чудес природы.</div>
-            <span class="card-go">Подробнее</span>
-          </div>
-        </a>
-
-        <a href="victoria.html" class="place-card">
-          <span class="card-num">03</span>
-          <img src="/img/victoria.jpg" alt="Водопад Виктория">
-          <div class="card-body">
-            <div class="card-tag">Зимбабве / Замбия</div>
-            <div class="card-name">Водопад Виктория</div>
-            <div class="card-hint">Крупнейший водопад в мире по площади.</div>
-            <span class="card-go">Подробнее</span>
-          </div>
-        </a>
-
-        <a href="kilimanjaro.html" class="place-card">
-          <span class="card-num">04</span>
-          <img src="/img/kilimanjaro.jpg" alt="Килиманджаро">
-          <div class="card-body">
-            <div class="card-tag">Танзания</div>
-            <div class="card-name">Килиманджаро</div>
-            <div class="card-hint">Высочайшая точка Африки — 5 895 м над уровнем моря.</div>
-            <span class="card-go">Подробнее</span>
-          </div>
-        </a>
-
-        <a href="sahara.html" class="place-card">
-          <span class="card-num">05</span>
-          <img src="/img/sahara.jpg" alt="Сахара">
-          <div class="card-body">
-            <div class="card-tag">Марокко</div>
-            <div class="card-name">Сахара</div>
-            <div class="card-hint">Крупнейшая горячая пустыня планеты.</div>
-            <span class="card-go">Подробнее</span>
-          </div>
-        </a>
-
-        <a href="serengeti.html" class="place-card">
-          <span class="card-num">06</span>
-          <img src="/img/serengeti.jpg" alt="Серенгети">
-          <div class="card-body">
-            <div class="card-tag">Танзания</div>
-            <div class="card-name">Серенгети</div>
-            <div class="card-hint">Великая миграция — крупнейшее шествие животных на Земле.</div>
-            <span class="card-go">Подробнее</span>
-          </div>
-        </a>
-
-        <a href="marrakech.html" class="place-card">
-          <span class="card-num">07</span>
-          <img src="/img/marrakech.jpg" alt="Марракеш">
-          <div class="card-body">
-            <div class="card-tag">Марокко</div>
-            <div class="card-name">Марракеш</div>
-            <div class="card-hint">«Красный город» — лабиринт медины, дворцы и базары.</div>
-            <span class="card-go">Подробнее</span>
-          </div>
-        </a>
-
-        <a href="okavango.html" class="place-card">
-          <span class="card-num">08</span>
-          <img src="/img/okavango.jpg" alt="Дельта Окаванго">
-          <div class="card-body">
-            <div class="card-tag">Ботсвана</div>
-            <div class="card-name">Дельта Окаванго</div>
-            <div class="card-hint">Крупнейшая внутренняя речная дельта в мире.</div>
-            <span class="card-go">Подробнее</span>
-          </div>
-        </a>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- BANNER -->
-  <div class="terra-banner">
-    <div class="container reveal">
-      <h2>От Средиземного моря до мыса Доброй Надежды</h2>
-      <p>8 стран · 8 историй · один великий континент</p>
-    </div>
-  </div>
-
-  <!-- EUROPE PROMO -->
-  <div class="europe-promo">
-    <div class="europe-img-bg"></div>
-    <div class="europe-inner">
-      <div class="europe-text reveal">
-        <div class="ep-tag">Следующий континент</div>
-        <h2>ЕВ<em>РОПА</em></h2>
-        <p>История, архитектура, культура. Эйфелева башня, Колизей, замки Баварии — откройте для себя старый свет.</p>
-        <a href="https://europe.kernal.su" class="ep-cta">
-          Перейти в Европу
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
-      </div>
-      <div class="europe-photos reveal">
-        <div class="ep-photo">
-          <img src="https://europe.kernal.su/img/eiffel.jpg" alt="Эйфелева башня">
-          <div class="ep-photo-name">Эйфелева башня</div>
+      <div class="process-grid reveal-stagger reveal">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <div class="step-title">Брифинг</div>
+          <div class="step-desc">Изучаю задачу, бизнес-цели и аудиторию. Задаю правильные вопросы.</div>
         </div>
-        <div class="ep-photo">
-          <img src="https://europe.kernal.su/img/colosseum.jpg" alt="Колизей">
-          <div class="ep-photo-name">Колизей</div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <div class="step-title">Исследование</div>
+          <div class="step-desc">Анализирую конкурентов, изучаю паттерны, выявляю точки роста.</div>
         </div>
-        <div class="ep-photo">
-          <img src="https://europe.kernal.su/img/prague.jpg" alt="Прага">
-          <div class="ep-photo-name">Прага</div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <div class="step-title">Дизайн</div>
+          <div class="step-desc">Создаю wireframes, прототипы и финальные макеты с итерациями.</div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <div class="step-title">Передача</div>
+          <div class="step-desc">Готовые файлы, спецификации и поддержка команды разработки.</div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="reveal">
+        <div class="section-label">Контакт</div>
+        <h2>Начнём <em>проект</em>?</h2>
+        <p>Расскажите о задаче — отвечу в течение 24 часов и предложу как могу помочь.</p>
+      </div>
+      <form class="contact-form reveal">
+        <div class="form-row">
+          <input class="form-input" type="text" placeholder="Ваше имя">
+          <input class="form-input" type="email" placeholder="Email">
+        </div>
+        <input class="form-input" type="text" placeholder="Тема / название проекта">
+        <textarea class="form-input" placeholder="Расскажите о проекте..."></textarea>
+        <button class="form-submit" type="submit">Отправить →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    <div class="footer-logo">Africa</div>
-    <p>africa.kernal.su</p>
+    <div class="footer-logo">Alex<span>.</span></div>
+    <p>© 2026 — UI/UX Designer</p>
+    <ul class="footer-links">
+      <li><a href="#works">Работы</a></li>
+      <li><a href="#about">Обо мне</a></li>
+      <li><a href="#contact">Контакт</a></li>
+    </ul>
   </footer>
 
   <script>
@@ -219,23 +263,12 @@
     const obs = new IntersectionObserver((entries) => {
       entries.forEach((en, i) => {
         if (en.isIntersecting) {
-          setTimeout(() => en.target.classList.add('visible'), i * 60);
+          setTimeout(() => en.target.classList.add('visible'), i * 80);
           obs.unobserve(en.target);
         }
       });
     }, { threshold: 0.1 });
     document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
-
-    document.querySelectorAll('a[href]').forEach(link => {
-      const href = link.getAttribute('href');
-      if (!href.startsWith('#') && !href.startsWith('http')) {
-        link.addEventListener('click', e => {
-          e.preventDefault();
-          document.body.style.cssText = 'opacity:0;transform:translateY(-8px);transition:opacity 0.3s,transform 0.3s';
-          setTimeout(() => window.location.href = href, 300);
-        });
-      }
-    });
   </script>
 </body>
 </html>
