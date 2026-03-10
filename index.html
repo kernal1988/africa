@@ -3,251 +3,198 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alex Design — UI/UX Designer</title>
+  <title>Alex — UI/UX Designer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- NAV -->
-  <nav id="navbar">
-    <a href="#" class="nav-logo">Alex<span>.</span></a>
+  <nav>
+    <a href="#" class="nav-logo">Alex Morin</a>
     <ul class="nav-links">
       <li><a href="#works">Работы</a></li>
       <li><a href="#about">Обо мне</a></li>
       <li><a href="#services">Услуги</a></li>
-      <li><a href="#contact">Контакт</a></li>
     </ul>
-    <a href="#contact" class="nav-cta">Обсудить проект</a>
+    <a href="#contact" class="nav-contact">Написать →</a>
   </nav>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-bg-num">5+</div>
-    <div class="hero-inner">
-      <div class="hero-left">
-        <div class="hero-badge">UI/UX Designer</div>
-        <h1>Создаю<br>интерфейсы,<br>которые <em>работают</em></h1>
-        <p class="hero-desc">Дизайн — это не украшение. Это инструмент. Помогаю бизнесу расти через понятные и красивые цифровые продукты.</p>
-        <div class="hero-actions">
-          <a href="#works" class="btn-primary">Смотреть работы →</a>
-          <a href="#contact" class="btn-ghost">Связаться ↓</a>
+  <!-- HEADER -->
+  <div class="site-header reveal">
+    <h1>UI/UX<br>Дизайнер</h1>
+    <div class="header-sub">
+      <p class="header-desc">Проектирую цифровые продукты — от стартапов до крупных платформ. Работаю на результат, а не на красоту ради красоты.</p>
+      <div class="header-meta">
+        <div class="meta-item">
+          <div class="meta-val">48</div>
+          <div class="meta-lbl">проектов</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-val">5+</div>
+          <div class="meta-lbl">лет опыта</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-val">32</div>
+          <div class="meta-lbl">клиента</div>
         </div>
       </div>
-      <div class="hero-stats">
-        <div>
-          <div class="hero-stat-num">5<span>+</span></div>
-          <div class="hero-stat-lbl">Лет опыта</div>
-        </div>
-        <div>
-          <div class="hero-stat-num">48<span>+</span></div>
-          <div class="hero-stat-lbl">Проектов</div>
-        </div>
-        <div>
-          <div class="hero-stat-num">32<span>+</span></div>
-          <div class="hero-stat-lbl">Клиентов</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- MARQUEE -->
-  <div class="marquee-wrap">
-    <div class="marquee-track">
-      <span>UI Design</span><span class="marquee-dot">·</span>
-      <span>UX Research</span><span class="marquee-dot">·</span>
-      <span>Branding</span><span class="marquee-dot">·</span>
-      <span>Web Design</span><span class="marquee-dot">·</span>
-      <span>Mobile Apps</span><span class="marquee-dot">·</span>
-      <span>Design Systems</span><span class="marquee-dot">·</span>
-      <span>Prototyping</span><span class="marquee-dot">·</span>
-      <span>Figma</span><span class="marquee-dot">·</span>
-      <span>UI Design</span><span class="marquee-dot">·</span>
-      <span>UX Research</span><span class="marquee-dot">·</span>
-      <span>Branding</span><span class="marquee-dot">·</span>
-      <span>Web Design</span><span class="marquee-dot">·</span>
-      <span>Mobile Apps</span><span class="marquee-dot">·</span>
-      <span>Design Systems</span><span class="marquee-dot">·</span>
-      <span>Prototyping</span><span class="marquee-dot">·</span>
-      <span>Figma</span><span class="marquee-dot">·</span>
     </div>
   </div>
 
   <!-- WORKS -->
-  <section class="works" id="works">
-    <div class="section-header reveal">
-      <div>
-        <div class="section-label">Портфолио</div>
-        <h2 class="section-title">Избранные<br><em>работы</em></h2>
-      </div>
-      <a href="#contact" class="section-link">Все проекты →</a>
+  <div class="works-section" id="works">
+    <div class="works-header">
+      <div class="works-title">Избранные работы</div>
+      <ul class="works-filter">
+        <li class="active">Все</li>
+        <li>Мобайл</li>
+        <li>Веб</li>
+        <li>Брендинг</li>
+      </ul>
     </div>
     <div class="works-grid reveal-stagger reveal">
-      <a href="#" class="work-card">
-        <img class="work-img" src="" alt="">
-        <div class="work-overlay">
-          <div class="work-cat">Mobile App</div>
+
+      <a href="#" class="work-item">
+        <div class="work-thumb">
+          <div class="work-thumb-bg"></div>
+          <span class="work-thumb-label">Mobile App</span>
+        </div>
+        <div class="work-info">
           <div class="work-name">FinTrack — Финансовый трекер</div>
-          <div class="work-arrow">Открыть проект →</div>
+          <div class="work-cat">iOS / Android · 2024</div>
         </div>
       </a>
-      <a href="#" class="work-card">
-        <img class="work-img" src="" alt="">
-        <div class="work-overlay">
-          <div class="work-cat">Web Design</div>
-          <div class="work-name">GreenShop — Ecommerce</div>
-          <div class="work-arrow">Открыть проект →</div>
+
+      <a href="#" class="work-item">
+        <div class="work-thumb">
+          <div class="work-thumb-bg"></div>
+          <span class="work-thumb-label">Web Design</span>
+        </div>
+        <div class="work-info">
+          <div class="work-name">GreenShop — Интернет-магазин</div>
+          <div class="work-cat">E-commerce · 2024</div>
         </div>
       </a>
-      <a href="#" class="work-card">
-        <img class="work-img" src="" alt="">
-        <div class="work-overlay">
-          <div class="work-cat">Branding</div>
-          <div class="work-name">Nova Studio — Identity</div>
-          <div class="work-arrow">Открыть проект →</div>
+
+      <a href="#" class="work-item">
+        <div class="work-thumb">
+          <div class="work-thumb-bg"></div>
+          <span class="work-thumb-label">Branding</span>
+        </div>
+        <div class="work-info">
+          <div class="work-name">Nova Studio — Айдентика</div>
+          <div class="work-cat">Brand identity · 2023</div>
         </div>
       </a>
-      <a href="#" class="work-card">
-        <img class="work-img" src="" alt="">
-        <div class="work-overlay">
-          <div class="work-cat">Dashboard</div>
-          <div class="work-name">Analytics Pro</div>
-          <div class="work-arrow">Открыть проект →</div>
+
+      <a href="#" class="work-item">
+        <div class="work-thumb">
+          <div class="work-thumb-bg"></div>
+          <span class="work-thumb-label">Dashboard</span>
+        </div>
+        <div class="work-info">
+          <div class="work-name">Analytics Pro — Дашборд</div>
+          <div class="work-cat">SaaS · 2023</div>
         </div>
       </a>
-      <a href="#" class="work-card">
-        <img class="work-img" src="" alt="">
-        <div class="work-overlay">
-          <div class="work-cat">Mobile App</div>
-          <div class="work-name">MedBook — Здоровье</div>
-          <div class="work-arrow">Открыть проект →</div>
+
+      <a href="#" class="work-item">
+        <div class="work-thumb">
+          <div class="work-thumb-bg"></div>
+          <span class="work-thumb-label">Mobile App</span>
+        </div>
+        <div class="work-info">
+          <div class="work-name">MedBook — Медицина</div>
+          <div class="work-cat">Healthcare · 2023</div>
         </div>
       </a>
+
+      <a href="#" class="work-item">
+        <div class="work-thumb">
+          <div class="work-thumb-bg"></div>
+          <span class="work-thumb-label">Web Design</span>
+        </div>
+        <div class="work-info">
+          <div class="work-name">Pulse — Медиаплатформа</div>
+          <div class="work-cat">Media · 2022</div>
+        </div>
+      </a>
+
     </div>
-  </section>
+  </div>
 
   <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="about-inner">
-      <div class="about-photo reveal">
-        <div class="about-photo-box"></div>
-        <div class="about-tag">
-          <strong>5+</strong>
-          лет в дизайне
-        </div>
-      </div>
-      <div class="about-text reveal">
-        <div class="section-label">Обо мне</div>
-        <h2>Дизайнер с<br><em>аналитическим</em><br>мышлением</h2>
-        <p>Меня зовут Алекс. Я UI/UX дизайнер с опытом работы более 5 лет. Специализируюсь на создании цифровых продуктов — от мобильных приложений до сложных веб-платформ.</p>
-        <p>Верю, что хороший дизайн — это не про красоту, а про решение задачи. Каждый пиксель должен иметь причину.</p>
-        <div class="skills">
-          <span class="skill">Figma</span>
-          <span class="skill">UX Research</span>
-          <span class="skill">Prototyping</span>
-          <span class="skill">Design Systems</span>
-          <span class="skill">Motion</span>
-          <span class="skill">Branding</span>
-          <span class="skill">Webflow</span>
-          <span class="skill">Framer</span>
+  <div class="about-section" id="about">
+    <div class="about-inner reveal">
+      <div class="about-left">Обо мне</div>
+      <div class="about-right">
+        <h2>Дизайн — это решение задач, а не украшение</h2>
+        <p>Меня зовут Алекс. Я занимаюсь UI/UX дизайном более 5 лет. Работал с компаниями от небольших стартапов до крупных платформ с миллионами пользователей.</p>
+        <p>Специализируюсь на мобильных приложениях, веб-сервисах и дизайн-системах. Умею работать в команде и самостоятельно — от исследования до передачи макетов в разработку.</p>
+        <div class="skills-list">
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">UX Research</span>
+          <span class="skill-tag">Prototyping</span>
+          <span class="skill-tag">Design Systems</span>
+          <span class="skill-tag">iOS / Android</span>
+          <span class="skill-tag">Webflow</span>
+          <span class="skill-tag">Framer</span>
+          <span class="skill-tag">Branding</span>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- SERVICES -->
-  <section class="services" id="services">
-    <div class="services-inner">
-      <div class="reveal">
-        <div class="section-label">Услуги</div>
-        <h2 class="section-title">Что я <em>делаю</em></h2>
-      </div>
-      <div class="services-grid reveal-stagger reveal">
-        <div class="service-card">
-          <span class="service-icon">✦</span>
-          <div class="service-name">UI/UX Дизайн</div>
-          <div class="service-desc">Проектирование интерфейсов для веб и мобайл. От исследования пользователей до готовых макетов в Figma.</div>
-          <div class="service-price">
-            от
-            <strong>50 000 ₽</strong>
-          </div>
-        </div>
-        <div class="service-card">
-          <span class="service-icon">◈</span>
-          <div class="service-name">Брендинг</div>
-          <div class="service-desc">Фирменный стиль, логотип, гайдлайн. Создаю визуальный язык, который отличает вас от конкурентов.</div>
-          <div class="service-price">
-            от
-            <strong>80 000 ₽</strong>
-          </div>
-        </div>
-        <div class="service-card">
-          <span class="service-icon">⬡</span>
-          <div class="service-name">Дизайн-система</div>
-          <div class="service-desc">Компонентная библиотека и документация для вашей команды разработки. Масштабируемо и последовательно.</div>
-          <div class="service-price">
-            от
-            <strong>120 000 ₽</strong>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <div class="services-section" id="services">
+    <div class="services-header">Услуги</div>
+    <div class="services-grid reveal-stagger reveal">
 
-  <!-- PROCESS -->
-  <section class="process">
-    <div class="process-inner">
-      <div class="reveal">
-        <div class="section-label">Процесс</div>
-        <h2 class="section-title">Как я <em>работаю</em></h2>
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <div class="service-name">UI/UX Дизайн</div>
+        <div class="service-desc">Проектирование интерфейсов для веб и мобайл. Исследование, прототипы, финальные макеты в Figma с передачей разработчикам.</div>
+        <div class="service-price">от <strong>50 000 ₽</strong></div>
       </div>
-      <div class="process-grid reveal-stagger reveal">
-        <div class="process-step">
-          <div class="step-num">01</div>
-          <div class="step-title">Брифинг</div>
-          <div class="step-desc">Изучаю задачу, бизнес-цели и аудиторию. Задаю правильные вопросы.</div>
-        </div>
-        <div class="process-step">
-          <div class="step-num">02</div>
-          <div class="step-title">Исследование</div>
-          <div class="step-desc">Анализирую конкурентов, изучаю паттерны, выявляю точки роста.</div>
-        </div>
-        <div class="process-step">
-          <div class="step-num">03</div>
-          <div class="step-title">Дизайн</div>
-          <div class="step-desc">Создаю wireframes, прототипы и финальные макеты с итерациями.</div>
-        </div>
-        <div class="process-step">
-          <div class="step-num">04</div>
-          <div class="step-title">Передача</div>
-          <div class="step-desc">Готовые файлы, спецификации и поддержка команды разработки.</div>
-        </div>
+
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <div class="service-name">Брендинг</div>
+        <div class="service-desc">Логотип, фирменный стиль, гайдлайн. Создаю визуальный язык, который работает на всех носителях.</div>
+        <div class="service-price">от <strong>80 000 ₽</strong></div>
       </div>
+
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <div class="service-name">Дизайн-система</div>
+        <div class="service-desc">Компонентная библиотека и документация. Один раз — работает вся команда. Масштабируемо и последовательно.</div>
+        <div class="service-price">от <strong>120 000 ₽</strong></div>
+      </div>
+
     </div>
-  </section>
+  </div>
 
   <!-- CONTACT -->
-  <section class="contact" id="contact">
+  <div class="contact-section" id="contact">
     <div class="contact-inner">
-      <div class="reveal">
-        <div class="section-label">Контакт</div>
-        <h2>Начнём <em>проект</em>?</h2>
-        <p>Расскажите о задаче — отвечу в течение 24 часов и предложу как могу помочь.</p>
+      <div class="contact-left reveal">
+        <h2>Есть<br>проект?<br><span>Пишите.</span></h2>
+        <p>Отвечаю в течение 24 часов. Расскажите задачу — предложу как помочь и во сколько это обойдётся.</p>
+        <a href="mailto:alex@design.ru" class="contact-email">alex@design.ru</a>
       </div>
       <form class="contact-form reveal">
-        <div class="form-row">
-          <input class="form-input" type="text" placeholder="Ваше имя">
-          <input class="form-input" type="email" placeholder="Email">
-        </div>
-        <input class="form-input" type="text" placeholder="Тема / название проекта">
+        <input class="form-input" type="text" placeholder="Имя">
+        <input class="form-input" type="email" placeholder="Email">
+        <input class="form-input" type="text" placeholder="Тема">
         <textarea class="form-input" placeholder="Расскажите о проекте..."></textarea>
-        <button class="form-submit" type="submit">Отправить →</button>
+        <button class="form-submit" type="submit">Отправить</button>
       </form>
     </div>
-  </section>
+  </div>
 
   <!-- FOOTER -->
   <footer>
-    <div class="footer-logo">Alex<span>.</span></div>
+    <a href="#" class="footer-logo">Alex Morin</a>
     <p>© 2026 — UI/UX Designer</p>
     <ul class="footer-links">
       <li><a href="#works">Работы</a></li>
@@ -257,17 +204,14 @@
   </footer>
 
   <script>
-    const nav = document.getElementById('navbar');
-    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 60));
-
     const obs = new IntersectionObserver((entries) => {
       entries.forEach((en, i) => {
         if (en.isIntersecting) {
-          setTimeout(() => en.target.classList.add('visible'), i * 80);
+          setTimeout(() => en.target.classList.add('visible'), i * 60);
           obs.unobserve(en.target);
         }
       });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.08 });
     document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
   </script>
 </body>
