@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Африка — Главные достопримечательности</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hero-bg { background-image: url('/img/kilimanjaro.jpg'); background-position: center 40%; }
+    .hero { align-items: center; text-align: center; }
+    .hero::after { background: linear-gradient(180deg, rgba(26,18,11,0.3) 0%, rgba(26,18,11,0.75) 100%); }
+    .hero-content { max-width: 780px; margin: 0 auto; padding: 0 2rem 4rem; }
+    .hero h1 { letter-spacing: -4px; }
+    .hero-meta { justify-content: center; }
+    .scroll-hint { right: 50%; transform: translateX(50%); writing-mode: horizontal-tb; bottom: 2.5rem; }
+  </style>
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="#" class="nav-logo">Africa</a>
+    <ul class="nav-links">
+      <li><a href="#intro">О континенте</a></li>
+      <li><a href="#places">Места</a></li>
+      <li><a href="https://europe.kernal.su">Europe</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-label">Добро пожаловать</div>
+      <h1>АФ<em>РИ</em>КА</h1>
+      <p class="hero-sub">Колыбель человечества. Восемь мест, которые нужно увидеть хотя бы раз в жизни.</p>
+      <a href="#places" class="hero-cta">Смотреть места</a>
+    </div>
+    <div class="scroll-hint">Scroll</div>
+  </section>
+
+  <!-- INTRO -->
+  <div class="intro-band" id="intro">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-tag">Континент</div>
+        <h2 class="section-title">Второй по размеру <em>континент</em> планеты</h2>
+        <p>Африка — колыбель человеческой цивилизации. Здесь зародилась наша история, здесь живёт треть всех видов животных планеты, здесь стоят древнейшие рукотворные монументы. Восемь мест — от Сахары до мыса Доброй Надежды.</p>
+      </div>
+      <div class="intro-figures reveal-stagger reveal">
+        <div class="fig-item">
+          <div class="fig-val">54</div>
+          <div class="fig-lbl">Государства</div>
+        </div>
+        <div class="fig-item">
+          <div class="fig-val">30 млн</div>
+          <div class="fig-lbl">км² площадь</div>
+        </div>
+        <div class="fig-item">
+          <div class="fig-val">1,4 млрд</div>
+          <div class="fig-lbl">Население</div>
+        </div>
+        <div class="fig-item">
+          <div class="fig-val">2 000+</div>
+          <div class="fig-lbl">Языков</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLACES -->
+  <div class="places-section" id="places">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-tag">Достопримечательности</div>
+        <h2 class="section-title">8 мест, которые <em>запоминаются</em></h2>
+      </div>
+      <div class="places-grid reveal-stagger reveal">
+
+        <a href="giza.html" class="place-card">
+          <span class="card-num">01</span>
+          <img src="/img/giza.jpg" alt="Пирамиды Гизы">
+          <div class="card-body">
+            <div class="card-tag">Египет</div>
+            <div class="card-name">Пирамиды Гизы</div>
+            <div class="card-hint">Единственное сохранившееся чудо древнего мира.</div>
+            <span class="card-go">Подробнее</span>
+          </div>
+        </a>
+
+        <a href="tablemountain.html" class="place-card">
+          <span class="card-num">02</span>
+          <img src="/img/tablemountain.jpg" alt="Столовая гора">
+          <div class="card-body">
+            <div class="card-tag">ЮАР</div>
+            <div class="card-name">Столовая гора</div>
+            <div class="card-hint">Визитная карточка Кейптауна, одно из 7 чудес природы.</div>
+            <span class="card-go">Подробнее</span>
+          </div>
+        </a>
+
+        <a href="victoria.html" class="place-card">
+          <span class="card-num">03</span>
+          <img src="/img/victoria.jpg" alt="Водопад Виктория">
+          <div class="card-body">
+            <div class="card-tag">Зимбабве / Замбия</div>
+            <div class="card-name">Водопад Виктория</div>
+            <div class="card-hint">Крупнейший водопад в мире по площади.</div>
+            <span class="card-go">Подробнее</span>
+          </div>
+        </a>
+
+        <a href="kilimanjaro.html" class="place-card">
+          <span class="card-num">04</span>
+          <img src="/img/kilimanjaro.jpg" alt="Килиманджаро">
+          <div class="card-body">
+            <div class="card-tag">Танзания</div>
+            <div class="card-name">Килиманджаро</div>
+            <div class="card-hint">Высочайшая точка Африки — 5 895 м над уровнем моря.</div>
+            <span class="card-go">Подробнее</span>
+          </div>
+        </a>
+
+        <a href="sahara.html" class="place-card">
+          <span class="card-num">05</span>
+          <img src="/img/sahara.jpg" alt="Сахара">
+          <div class="card-body">
+            <div class="card-tag">Марокко</div>
+            <div class="card-name">Сахара</div>
+            <div class="card-hint">Крупнейшая горячая пустыня планеты.</div>
+            <span class="card-go">Подробнее</span>
+          </div>
+        </a>
+
+        <a href="serengeti.html" class="place-card">
+          <span class="card-num">06</span>
+          <img src="/img/serengeti.jpg" alt="Серенгети">
+          <div class="card-body">
+            <div class="card-tag">Танзания</div>
+            <div class="card-name">Серенгети</div>
+            <div class="card-hint">Великая миграция — крупнейшее шествие животных на Земле.</div>
+            <span class="card-go">Подробнее</span>
+          </div>
+        </a>
+
+        <a href="marrakech.html" class="place-card">
+          <span class="card-num">07</span>
+          <img src="/img/marrakech.jpg" alt="Марракеш">
+          <div class="card-body">
+            <div class="card-tag">Марокко</div>
+            <div class="card-name">Марракеш</div>
+            <div class="card-hint">«Красный город» — лабиринт медины, дворцы и базары.</div>
+            <span class="card-go">Подробнее</span>
+          </div>
+        </a>
+
+        <a href="okavango.html" class="place-card">
+          <span class="card-num">08</span>
+          <img src="/img/okavango.jpg" alt="Дельта Окаванго">
+          <div class="card-body">
+            <div class="card-tag">Ботсвана</div>
+            <div class="card-name">Дельта Окаванго</div>
+            <div class="card-hint">Крупнейшая внутренняя речная дельта в мире.</div>
+            <span class="card-go">Подробнее</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- BANNER -->
+  <div class="terra-banner">
+    <div class="container reveal">
+      <h2>От Средиземного моря до мыса Доброй Надежды</h2>
+      <p>8 стран · 8 историй · один великий континент</p>
+    </div>
+  </div>
+
+  <!-- EUROPE PROMO -->
+  <div class="europe-promo">
+    <div class="europe-img-bg"></div>
+    <div class="europe-inner">
+      <div class="europe-text reveal">
+        <div class="ep-tag">Следующий континент</div>
+        <h2>ЕВ<em>РОПА</em></h2>
+        <p>История, архитектура, культура. Эйфелева башня, Колизей, замки Баварии — откройте для себя старый свет.</p>
+        <a href="https://europe.kernal.su" class="ep-cta">
+          Перейти в Европу
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="europe-photos reveal">
+        <div class="ep-photo">
+          <img src="https://europe.kernal.su/img/eiffel.jpg" alt="Эйфелева башня">
+          <div class="ep-photo-name">Эйфелева башня</div>
+        </div>
+        <div class="ep-photo">
+          <img src="https://europe.kernal.su/img/colosseum.jpg" alt="Колизей">
+          <div class="ep-photo-name">Колизей</div>
+        </div>
+        <div class="ep-photo">
+          <img src="https://europe.kernal.su/img/prague.jpg" alt="Прага">
+          <div class="ep-photo-name">Прага</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">Africa</div>
+    <p>africa.kernal.su</p>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('navbar');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 60));
+
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((en, i) => {
+        if (en.isIntersecting) {
+          setTimeout(() => en.target.classList.add('visible'), i * 60);
+          obs.unobserve(en.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+    document.querySelectorAll('a[href]').forEach(link => {
+      const href = link.getAttribute('href');
+      if (!href.startsWith('#') && !href.startsWith('http')) {
+        link.addEventListener('click', e => {
+          e.preventDefault();
+          document.body.style.cssText = 'opacity:0;transform:translateY(-8px);transition:opacity 0.3s,transform 0.3s';
+          setTimeout(() => window.location.href = href, 300);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
